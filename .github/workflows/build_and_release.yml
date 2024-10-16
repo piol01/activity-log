@@ -28,7 +28,7 @@ jobs:
           npm run build
       - name: Commit
         run: |
-          git config --global user.name 'piol01'
+          git config --global user.name 'greatfish01'
           git config --global user.email '126752850+greatfish01@users.noreply.github.com'
           git commit -am "dist build"
           git push
@@ -40,7 +40,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Pull latest
         run: |
-          git config --global user.name 'piol01'
+          git config --global user.name 'greatfish01'
           git config --global user.email '126752850+greatfish01@users.noreply.github.com'
           git pull
       - name: Tag it
